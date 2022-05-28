@@ -1,0 +1,31 @@
+{
+  "plans": [
+    {
+      "id": "00001",
+      "name": "basic",
+      "price_annual": 199.99,
+      "price_monthly": 19.99,
+      "storage": "500 GB",
+      "users": 2,
+      "send": 3
+    },
+    {
+      "id": "00002",
+      "name": "professional",
+      "price_annual": 249.99,
+      "price_monthly": 24.99,
+      "storage": "1 TB",
+      "users": 5,
+      "send": 10
+    },
+    {
+      "id": "00003",
+      "name": "master",
+      "price_annual": 399.99,
+      "price_monthly": 39.99,
+      "storage": "2 TB",
+      "users": 10,
+      "send": 20
+    }
+  ]
+}
