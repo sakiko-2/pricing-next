@@ -1,9 +1,21 @@
 import { useState } from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import styled from 'styled-components'
 import Card from '../components/card'
 import Toggle from '../components/toggle'
 import data from '../data/plans.json'
+
+const StyledMain = styled.main`
+  background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50%, 50%;
+
+  @media (min-width: 768px) {
+    background-size: auto, auto;
+  }
+`
 
 const Home: NextPage = () => {
   const [monthly, setMonthly] = useState(false)
@@ -18,7 +30,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main
+      <StyledMain
         className="min-h-screen bg-[color:var(--light-grayish-blue)]
         text-[color:var(--very-dark-grayish-blue)]"
       >
@@ -37,7 +49,7 @@ const Home: NextPage = () => {
             ))}
           </div>
         </div>
-      </main>
+      </StyledMain>
     </div>
   )
 }
