@@ -4,7 +4,10 @@ interface Props {
 }
 
 const Toggle = ({ checked, handleChange }: Props) => (
-  <label className="flex justify-between items-center p-2 text-sm relative">
+  <label
+    className="flex justify-between items-center p-2 text-sm
+    text-[color:var(--dark-grayish-blue)] relative"
+  >
     <span aria-hidden="true">Annually</span>
     <input
       type="checkbox"
@@ -14,11 +17,10 @@ const Toggle = ({ checked, handleChange }: Props) => (
     />
     <span
       className="w-16 h-10 flex items-center mx-4 p-1 bg-[color:var(--primary-color)]
-      rounded-full after:w-8 after:h-8 after:bg-white
+      hover:opacity-75 rounded-full after:w-8 after:h-8 after:bg-white
       after:rounded-full after:shadow-md after:duration-300 ease-in-out
       peer-checked:after:translate-x-6"
-    >
-    </span>
+    ></span>
     Monthly
   </label>
 )

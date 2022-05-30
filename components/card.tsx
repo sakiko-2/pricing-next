@@ -25,7 +25,12 @@ const Card = ({ data, monthly }: Props) => {
         }`}
     >
       <h2 className="capitalize text-lg my-2">{name}</h2>
-      <div className="divide-y divide-slate-200">
+      <div
+        className={`divide-y-[0.75px] ${name === "professional"
+          ? "divide-[color:var(--secondary-color)]"
+          : "divide-[color:var(--grayish-blue)]"}`
+        }
+      >
         <div className="text-5xl flex justify-center items-center my-2">
           $
           <span className="text-7xl ml-1">
@@ -40,8 +45,8 @@ const Card = ({ data, monthly }: Props) => {
             className={`border rounded-lg mt-6 py-3 w-full uppercase text-sm
               tracking-widest
               ${name === "professional"
-              ? "text-[color:var(--primary-color)] bg-white  hover:text-white hover:bg-[color:var(--primary-color)]"
-              : "text-white bg-gradient-to-r from-[color:var(--secondary-color)] to-[color:var(--primary-color)] hover:bg-none hover:text-[color:var(--primary-color)] hover:outline hover:outline-[color:var(--primary-color)] hover:outline-1 "}
+                ? "text-[color:var(--primary-color)] bg-white  hover:text-white hover:bg-[color:var(--primary-color)]"
+                : "text-white bg-gradient-to-r from-[color:var(--secondary-color)] to-[color:var(--primary-color)] hover:bg-none hover:text-[color:var(--primary-color)] hover:outline hover:outline-[color:var(--primary-color)] hover:outline-1 "}
               `}
           >
             Learn More
