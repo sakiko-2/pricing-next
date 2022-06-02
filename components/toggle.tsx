@@ -11,7 +11,7 @@ const Toggle = ({ checked, handleChange }: Props) => (
     <span aria-hidden="true">Annually</span>
     <input
       type="checkbox"
-      className="appearance-none peer absolute left-0 top-0 w-full h-full rounded-md"
+      className="appearance-none peer absolute left-0 top-0 w-full h-full rounded-md cursor-pointer"
       onChange={handleChange}
       checked={checked}
     />
