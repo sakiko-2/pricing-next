@@ -56,7 +56,7 @@ const Card = ({ data, monthly }: Props) => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default Card
