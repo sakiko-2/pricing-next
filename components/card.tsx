@@ -17,19 +17,19 @@ const Card = ({ data, monthly }: Props) => {
     <div
       className={`rounded-lg p-6 my-4 text-center shadow-2xl 
         shadow-[color:var(--secondary-color)]
-        basis-full lg:basis-1/3 max-w-[22rem] relative 
-        ${
-          name === "professional"
-            ? "md:z-10 md:py-12 bg-[color:var(--primary-color)] text-white"
-            : "md:z-0 bg-white"
-        }`}
+        basis-full lg:basis-1/3 max-w-[22rem] relative
+        odd:md:z-0 odd:bg-white
+        even:md:z-10 even:md:py-12 even:bg-[color:var(--primary-color)]
+        even:text-white even:drop-shadow-md even:text-shadow-[0_0_3px_rgba(84,88,176,0.5)]
+      `}
     >
       <h2 className="capitalize text-lg my-2">{name}</h2>
       <div
-        className={`divide-y-[0.75px] ${name === "professional"
-          ? "divide-[color:var(--secondary-color)]"
-          : "divide-[color:var(--grayish-blue)]"}`
-        }
+        className={`drop-shadow divide-y-[0.75px] ${
+          name === "professional"
+            ? "divide-[color:var(--secondary-color)]"
+            : "divide-[color:var(--grayish-blue)]"
+        }`}
       >
         <div className="text-5xl flex justify-center items-center my-2">
           $
@@ -44,9 +44,11 @@ const Card = ({ data, monthly }: Props) => {
           <button
             className={`border rounded-lg mt-6 py-3 w-full uppercase text-sm
               tracking-widest
-              ${name === "professional"
-                ? "text-[color:var(--primary-color)] bg-white  hover:text-white hover:bg-[color:var(--primary-color)]"
-                : "text-white bg-gradient-to-r from-[color:var(--secondary-color)] to-[color:var(--primary-color)] hover:bg-none hover:text-[color:var(--primary-color)] hover:outline hover:outline-[color:var(--primary-color)] hover:outline-1 "}
+              ${
+                name === "professional"
+                  ? "text-[color:var(--dark-moderate-blue)] bg-white hover:text-white hover:bg-[color:var(--primary-color)] hover:drop-shadow-md"
+                  : "text-white bg-gradient-to-r from-[color:var(--secondary-color)] to-[color:var(--primary-color)] hover:bg-none hover:text-[color:var(--primary-color)] hover:outline hover:outline-[color:var(--primary-color)] hover:outline-1 "
+              }
               `}
           >
             Learn More
@@ -54,7 +56,7 @@ const Card = ({ data, monthly }: Props) => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Card
