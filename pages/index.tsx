@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         </div>
       </StyledMain>
     </div>
-  );
+  )
 }
 
 export default Home
