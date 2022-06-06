@@ -41,8 +41,8 @@ const Home: NextPage = () => {
           <h1 className="text-3xl my-5 md:mb-6">Our Pricing</h1>
           <Toggle checked={monthly} handleChange={handleChange} />
           <div
-            className="flex flex-row justify-center items-center
-            flex-wrap md:flex-nowrap w-full mt-7"
+            className="grid justify-center items-center
+            grid-cols-1 lg:grid-cols-3 mt-7"
           >
             {data.plans.map((d) => (
               <Card data={d} key={d.id} monthly={monthly} />
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         </div>
       </StyledMain>
     </div>
-  )
+  );
 }
 
 export default Home
