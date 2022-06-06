@@ -1,5 +1,16 @@
 # Pricing - Next.js
 
+## Screenshots
+<div>
+  <h3>Desktop</h3>
+  <img src="./screenshots/desktop.png" width="700" alt="desktop screenshot">
+</div>
+<br/>
+<div>
+  <h3>Mobile</h3>
+  <img src="./screenshots/mobile.png" width="250" alt="mobile screenshot">
+</div>
+
 ## Getting Started
 
 First, run the development server:
