@@ -17,7 +17,8 @@ const Card = ({ data, monthly }: Props) => {
     <div
       className={`rounded-lg p-6 my-4 text-center shadow-2xl 
         shadow-[color:var(--secondary-color)]
-        basis-full max-w-[22rem] relative
+        flex flex-col justify-center align-center
+        w-screen md:min-w-[21rem] max-w-[21.5rem] relative
         odd:md:z-0 odd:bg-white
         even:md:z-10 even:md:py-12 even:bg-[color:var(--primary-color)]
         even:text-white even:drop-shadow-md even:text-shadow-[0_0_3px_rgba(84,88,176,0.5)]
