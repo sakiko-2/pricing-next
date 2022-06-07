@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div>
+    <main
+      class="sc-28b0b549-0 BAfwZ min-h-screen bg-[color:var(--light-grayish-blue)] text-[color:var(--very-dark-grayish-blue)]"
+    >
+      <div
+        class="container mx-auto px-4 py-8 min-h-screen flex items-center flex-col"
+      >
+        <h1
+          class="text-3xl my-5 md:mb-6"
+        >
+          Our Pricing
+        </h1>
+        <label
+          class="flex justify-between items-center p-2 text-sm text-[color:var(--dark-grayish-blue)] relative"
+        >
+          <span
+            aria-hidden="true"
+          >
+            Annually
+          </span>
+          <input
+            class="appearance-none peer absolute left-0 top-0 w-full h-full rounded-md cursor-pointer"
+            type="checkbox"
+          />
+          <span
+            class="w-16 h-10 flex items-center mx-4 p-1 bg-[color:var(--primary-color)] hover:opacity-75 rounded-full after:w-8 after:h-8 after:bg-white after:rounded-full after:shadow-md after:duration-300 ease-in-out peer-checked:after:translate-x-6"
+          />
+          Monthly
+        </label>
+        <div
+          class="grid justify-center items-center grid-cols-1 lg:grid-cols-3 mt-7"
+        >
+          <div
+            class="rounded-lg p-6 my-4 text-center shadow-2xl 
+        shadow-[color:var(--secondary-color)]
+        flex flex-col justify-center align-center
+        w-screen md:min-w-[21rem] max-w-[21.5rem] relative
+        odd:md:z-0 odd:bg-white
+        even:md:z-10 even:md:py-12 even:bg-[color:var(--primary-color)]
+        even:text-white even:drop-shadow-md even:text-shadow-[0_0_3px_rgba(84,88,176,0.5)]
+      "
+          >
+            <h2
+              class="capitalize text-lg my-2"
+            >
+              basic
+            </h2>
+            <div
+              class="drop-shadow divide-y-[0.75px] divide-[color:var(--grayish-blue)]"
+            >
+              <div
+                class="text-5xl flex justify-center items-center my-2"
+              >
+                $
+                <span
+                  class="text-7xl ml-1"
+                >
+                  199.99
+                </span>
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                500 GB Storage
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                2 Users Allowed
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                Send up to 3 GB
+              </div>
+              <div>
+                <button
+                  class="border rounded-lg mt-6 py-3 w-full uppercase text-sm
+              tracking-widest
+              text-white bg-gradient-to-r from-[color:var(--secondary-color)] to-[color:var(--primary-color)] hover:bg-none hover:text-[color:var(--primary-color)] hover:outline hover:outline-[color:var(--primary-color)] hover:outline-1 
+              "
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="rounded-lg p-6 my-4 text-center shadow-2xl 
+        shadow-[color:var(--secondary-color)]
+        flex flex-col justify-center align-center
+        w-screen md:min-w-[21rem] max-w-[21.5rem] relative
+        odd:md:z-0 odd:bg-white
+        even:md:z-10 even:md:py-12 even:bg-[color:var(--primary-color)]
+        even:text-white even:drop-shadow-md even:text-shadow-[0_0_3px_rgba(84,88,176,0.5)]
+      "
+          >
+            <h2
+              class="capitalize text-lg my-2"
+            >
+              professional
+            </h2>
+            <div
+              class="drop-shadow divide-y-[0.75px] divide-[color:var(--secondary-color)]"
+            >
+              <div
+                class="text-5xl flex justify-center items-center my-2"
+              >
+                $
+                <span
+                  class="text-7xl ml-1"
+                >
+                  249.99
+                </span>
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                1 TB Storage
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                5 Users Allowed
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                Send up to 10 GB
+              </div>
+              <div>
+                <button
+                  class="border rounded-lg mt-6 py-3 w-full uppercase text-sm
+              tracking-widest
+              text-[color:var(--dark-moderate-blue)] bg-white hover:text-white hover:bg-[color:var(--primary-color)] hover:drop-shadow-md
+              "
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="rounded-lg p-6 my-4 text-center shadow-2xl 
+        shadow-[color:var(--secondary-color)]
+        flex flex-col justify-center align-center
+        w-screen md:min-w-[21rem] max-w-[21.5rem] relative
+        odd:md:z-0 odd:bg-white
+        even:md:z-10 even:md:py-12 even:bg-[color:var(--primary-color)]
+        even:text-white even:drop-shadow-md even:text-shadow-[0_0_3px_rgba(84,88,176,0.5)]
+      "
+          >
+            <h2
+              class="capitalize text-lg my-2"
+            >
+              master
+            </h2>
+            <div
+              class="drop-shadow divide-y-[0.75px] divide-[color:var(--grayish-blue)]"
+            >
+              <div
+                class="text-5xl flex justify-center items-center my-2"
+              >
+                $
+                <span
+                  class="text-7xl ml-1"
+                >
+                  399.99
+                </span>
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                2 TB Storage
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                10 Users Allowed
+              </div>
+              <div
+                class="py-2 text-base leading-9"
+              >
+                Send up to 20 GB
+              </div>
+              <div>
+                <button
+                  class="border rounded-lg mt-6 py-3 w-full uppercase text-sm
+              tracking-widest
+              text-white bg-gradient-to-r from-[color:var(--secondary-color)] to-[color:var(--primary-color)] hover:bg-none hover:text-[color:var(--primary-color)] hover:outline hover:outline-[color:var(--primary-color)] hover:outline-1 
+              "
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
