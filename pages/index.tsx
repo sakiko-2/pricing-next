@@ -4,6 +4,7 @@ import Head from 'next/head'
 import styled from 'styled-components'
 import Card from '../components/card'
 import Toggle from '../components/toggle'
+import Footer from '../components/footer'
 import data from '../data/plans.json'
 
 const StyledMain = styled.main`
@@ -31,11 +32,11 @@ const Home: NextPage = () => {
       </Head>
 
       <StyledMain
-        className="min-h-screen bg-[color:var(--light-grayish-blue)]
+        className="h-screen flex flex-col bg-[color:var(--light-grayish-blue)]
         text-[color:var(--very-dark-grayish-blue)]"
       >
         <div
-          className="container mx-auto px-4 py-8 min-h-screen flex items-center
+          className="container mx-auto px-4 py-8 flex flex-1 items-center
           flex-col"
         >
           <h1 className="text-3xl my-5 md:mb-6">Our Pricing</h1>
@@ -49,6 +50,7 @@ const Home: NextPage = () => {
             ))}
           </div>
         </div>
+        <Footer />
       </StyledMain>
     </div>
   )
